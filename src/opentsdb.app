@@ -13,12 +13,5 @@
 
 
 
-%% {ok,{_,[{abstract_code,{_,AC}}]}} = beam_lib:chunks(Beam,[abstract_code]).
-%% io:fwrite("~s~n", [erl_prettypr:format(erl_syntax:form_list(AC))]).
-
-%%{ok,{_,[{abstract_code,{_,AC}}]}} = beam_lib:chunks(emqx_bridge_rocket,[abstract_code]).
-%%{ok,{_,[{abstract_code,{_,AC}}]}} = beam_lib:chunks(opentsdb,[abstract_code]).
-
-
 
 
